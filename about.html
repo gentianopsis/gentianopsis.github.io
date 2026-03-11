@@ -1,1 +1,121 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body{
+        background-color:#bad9b4;
+        background-image: url(https://i.imgur.com/GlMCHmt.jpeg);
+      }
+    .container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "dtory content"
+    "prj content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr; 
+  gap: 3px;
+  border-radius:3px;
+  border-color: black;
+  border-style: solid;
+  background-color: #7e917a;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.container div {
+  background-color: white;
+  border-radius:3px;
+  padding: 10px; 
+}
+.container .header {
+  grid-area: header;
+  text-align: center;
+  font-family: "Arial", Times, serif;
+  border-color: black;
+  font-size: 20pt;
+  background-color:#e2f2df;
+  color: #483b3c;
+  border-style: solid;
+}
 
+.container .dtory {
+  grid-area: dtory;
+  text-align: center;
+  font-family: "Arial", Georgia, serif;
+  border-color: black;
+  border-style: solid;
+  background-color: #e2f2df;
+}
+.container .prj {
+  grid-area: prj;
+  text-align: center;
+  font-family: "Arial", Georgia, serif;
+  border-color: black;
+  border-style: solid;
+  background-color: #e2f2df;
+}
+.container .content {
+  grid-area: content;
+  text-align:center;
+  font-family: "Arial", Times, serif;
+  border-color: black;
+  color: #483b3c;
+  background-color: #e2f2df;
+  border-style: solid;
+  overflow-y:auto;
+  height: 350px;
+}
+  .content img {
+  width: 50%;
+  height: 50%;
+  object-fit: scale-down;
+  object-position: 50% 50%;
+}
+.container .footer {
+  grid-area: footer;
+  text-align: center;
+  font-family: "Arial", Times, serif;
+  border-color: black;
+  border-style: solid;
+  font-size: 8pt;
+  background-color: #e2f2df;
+}
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="header">
+      <h1>Kimberly Charles</h1>
+    </div>
+  <div class="dtory">
+    <h3>directory</h3>
+    home
+    <br>
+    education
+    <br>
+    experience
+    <br>
+    interests
+    <br>
+    portfolio
+    </p>
+  </div>
+  <div class="prj">
+    <h3>social media</h3>
+    <p><a href=https://www.inaturalist.org/people/4129058>iNaturalist</a>
+    <br>
+    <a href=https://www.linkedin.com/in/kimberlymcharles/>LinkedIn</a></p>
+  </div>
+  <div class="content">
+    <h3>About Kimberly</h3>
+    <p>Ecology and conservation have been my lifetime passions. The first set of books I took interest in were on the subject of conservation for endangered species where I first started asking questions about nature. Growing up with severe asthma in Toronto, visiting naturalised areas was where I felt the most healthy. This resulted in my strong sense of purpose in protecting the ecosystems that provide us with these vital services which allowed me to succeed academically and attend the University of Toronto. 
+I procured a student position at the DAO Herbarium, which cultivated my love for plants. The most impactful course I took was on plant life history strategies. Combining my interests, I reviewed Assisted Migration and Hybridization as conservation methods for Arctic and Alpine flora. As analyses on Arctic climate change mitigation strategies were sparse, I was interested in opening the dialogue which provided me with the incredible opportunity to publish in ConBio. I discovered an interest in writing scientific literature and publishing, viewing peer revisions as imperative in improving my craft. These experiences inspired me to pursue graduate studies. 
+I chose a Master's degree in environmental science to run my own research project, which only contributed to my fascination with climate change and its effect on ecosystems. Obtaining teaching assistantships helped me find my love for teaching through awakening an appreciation for the nature in my students. My time in the Cadotte Lab solidified my interest in research from designing my study and completing the field work to analysing and interpreting my results while giving me the opportunity to work with an interdisciplinary team on many concurrent projects, diversifying my field skills especially when my project ran into difficulties. I examined the effects of urbanisation on carbon sequestration in restorations using non-destructive surveys and growth curves. I also took part in a research trip conducting measurements of ecosystem functioning in plants using monitoring plots with Nature Conservancy. 
+ </p>
+  </div>
+  <div class="footer">
+    <h3>© Kimberly Charles 2026</h3>
+  </div>
+  </div>
+</html>
