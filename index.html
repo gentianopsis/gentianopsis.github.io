@@ -10,6 +10,7 @@
   grid-template-areas:
     "header header"
     "dtory content"
+    "prj content"
     "footer footer";
   grid-template-columns: 1fr 3fr; 
   gap: 3px;
@@ -45,6 +46,14 @@
   border-style: solid;
   background-color: #e2f2df;
 }
+.container .prj {
+  grid-area: prj;
+  text-align: center;
+  font-family: "Arial", Georgia, serif;
+  border-color: black;
+  border-style: solid;
+  background-color: #e2f2df;
+}
 .container .content {
   grid-area: content;
   text-align:center;
@@ -73,6 +82,7 @@
       <h1>Kimberly Charles</h1>
     </div>
   <div class="dtory">
+    <h3>directory</h3>
     education
     <br>
     experience
